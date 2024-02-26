@@ -1,0 +1,5 @@
+n1 = int(input('o valor é:'))
+s = n1 * 2
+p = n1 * 3
+m = n1 ** (1/2)
+print('o dobro do valor é {} \n o triplo é {} \n e a raiz quadrada é {:.2f}'. format(s, p, m))
