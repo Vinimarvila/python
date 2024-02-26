@@ -1,0 +1,8 @@
+n1 = int(input('uma distancia em metros:'))
+decametro = n1 * 10
+hectometro = n1 * 100
+quilometro = n1 * 1000
+decimetro = n1 / 10
+centimetro = n1 / 100
+milimetro = n1 / 1000
+print('{} decametro(s) {} hectometro {} quilometro {} decimetro {} centimetros {} milimetros'.format(n1,decametro,hectometro,quilometro,decimetro,centimetro,milimetro))
