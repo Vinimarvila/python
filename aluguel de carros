@@ -1,0 +1,5 @@
+dias = int(input('quantos dias alugou o carro?'))
+km = float(input('quantos km o carro rodou?'))
+pago = dias * 60
+quilometros = km * 0.15
+print('o total a pagar de dias é R${:.2f} e a pagar de km rodado é R${:.2f}'.format(pago,quilometros))
